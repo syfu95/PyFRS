@@ -89,7 +89,7 @@ def FS_flux(time_obs,nu_obs,**Z):
     Nuunits= {'Hz': 1.0, 'keV': cgs.keV2Hz}
 
     dynamic_model='differential'
-    radiative_efficiency = 'No'
+    radiative_efficiency = 'Yes'
 
     # Band_mode='X-ray'
 #        v=Band[Band_mode]
